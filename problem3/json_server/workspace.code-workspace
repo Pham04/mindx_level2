@@ -1,0 +1,13 @@
+{
+	"folders": [
+		{
+			"path": "..\\mindx_test_level2"
+		},
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "mindx_test_level2"
+	}
+}

@@ -1,0 +1,39 @@
+#root{
+    text-align: center;
+}
+
+body {
+    margin: 0px; 
+    padding: 0px
+}
+
+.pictures {
+    display: grid;
+    margin: 20px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 400px 400px;
+    grid-gap: 20px;
+}
+
+img {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    z-index: -1;
+}
+
+.picBox {
+    position: relative;
+}
+
+.des {
+    margin: 0px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: white;
+}
+
